@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roam Wyld — Legal</title>
+  <title>Roam Wyld</title>
+  <meta name="description" content="Roam Wyld is a travel organization app for multi-country trips. Store trips, track bookings, view entry requirements, access emergency contacts, and import travel confirmations from email.">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -14,33 +15,75 @@
       padding: 0 16px 80px;
     }
     .container { max-width: 680px; margin: 0 auto; padding-top: 60px; }
-    .logo { font-size: 13px; font-weight: 800; letter-spacing: 4px; color: #0891b2; text-transform: uppercase; margin-bottom: 8px; }
-    h1 { font-size: 28px; font-weight: 800; color: #f0ece4; margin-bottom: 8px; }
-    .tagline { font-size: 15px; color: #8a8c94; margin-bottom: 48px; }
-    .links { display: flex; flex-direction: column; gap: 12px; }
+    .wordmark { font-size: 32px; font-weight: 800; color: #f0ece4; letter-spacing: -0.5px; margin-bottom: 6px; }
+    .wordmark span { color: #0891b2; }
+    .tagline { font-size: 16px; color: #8a8c94; margin-bottom: 32px; }
+    .description {
+      font-size: 15px; color: #8a8c94; line-height: 1.8;
+      background: #353b45; border: 1px solid #4a5260; border-radius: 12px;
+      padding: 20px 24px; margin-bottom: 40px;
+    }
+    .description p { margin-bottom: 10px; }
+    .description p:last-child { margin-bottom: 0; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 40px; }
+    .feature {
+      background: #353b45; border: 1px solid #4a5260; border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .feature-title { font-size: 13px; font-weight: 700; color: #f0ece4; margin-bottom: 4px; }
+    .feature-sub { font-size: 12px; color: #5a5d66; }
+    h2 { font-size: 11px; font-weight: 700; color: #0891b2; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; }
+    .links { display: flex; flex-direction: column; gap: 10px; }
     .link-card {
-      background: #353b45;
-      border: 1px solid #4a5260;
-      border-radius: 12px;
-      padding: 20px 24px;
-      text-decoration: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      background: #353b45; border: 1px solid #4a5260; border-radius: 12px;
+      padding: 18px 22px; text-decoration: none;
+      display: flex; justify-content: space-between; align-items: center;
     }
     .link-card:hover { border-color: #0891b2; }
-    .link-title { font-size: 16px; font-weight: 600; color: #f0ece4; }
-    .link-sub { font-size: 13px; color: #5a5d66; margin-top: 2px; }
+    .link-title { font-size: 15px; font-weight: 600; color: #f0ece4; }
+    .link-sub { font-size: 12px; color: #5a5d66; margin-top: 2px; }
     .arrow { font-size: 20px; color: #0891b2; }
     footer { margin-top: 60px; font-size: 12px; color: #454850; text-align: center; }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="logo">Roam Wyld</div>
-    <h1>Legal</h1>
-    <p class="tagline">Travel smarter. Your data stays yours.</p>
+    <div class="wordmark">Roam <span>Wyld</span></div>
+    <p class="tagline">The travel organizer for multi-country trips</p>
 
+    <div class="description">
+      <p>Roam Wyld is an iOS app that helps travelers organize multi-destination trips in one place. Store trips and bookings, view per-passport visa and entry requirements, access country-specific emergency contacts, check live exchange rates, and import travel confirmations directly from Gmail.</p>
+      <p>Roam Wyld requests read-only Gmail access solely to find and import travel confirmation emails. Email data is processed to extract booking details and is not stored or used for any other purpose.</p>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-title">Trip & Booking Storage</div>
+        <div class="feature-sub">Flights, hotels, activities in one place</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">Entry Requirements</div>
+        <div class="feature-sub">Visa rules per passport nationality</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">Gmail Import</div>
+        <div class="feature-sub">Auto-import confirmation emails</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">Emergency Contacts</div>
+        <div class="feature-sub">Country police, ambulance, embassy</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">Transit Directions</div>
+        <div class="feature-sub">Step-by-step routes between stops</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">Currency Converter</div>
+        <div class="feature-sub">Live exchange rates, offline fallback</div>
+      </div>
+    </div>
+
+    <h2>Legal</h2>
     <div class="links">
       <a href="privacy.html" class="link-card">
         <div>
@@ -58,7 +101,7 @@
       </a>
     </div>
 
-    <footer>Roam Wyld &copy; 2026</footer>
+    <footer>Roam Wyld &copy; 2026 &nbsp;·&nbsp; <a href="mailto:kbevans13@gmail.com" style="color:#5a5d66;">kbevans13@gmail.com</a></footer>
   </div>
 </body>
 </html>
