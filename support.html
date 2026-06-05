@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support & Docs — Roam Wyld</title>
+  <meta name="description" content="How-to guides and troubleshooting for Roam Wyld. Creating trips, importing bookings, transit directions, entry requirements, and more." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">ROAM WYLD</a>
+    <div class="nav-links">
+      <a href="/#features" class="nav-link-hide">Features</a>
+      <a href="/#pricing" class="nav-link-hide">Pricing</a>
+      <a href="faq.html" class="nav-link-hide">FAQ</a>
+      <a href="support.html">Support</a>
+      <a href="/#download" class="nav-cta">Download</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <h1>Help & Documentation</h1>
+  <p>Step-by-step guides for every feature in Roam Wyld.</p>
+</div>
+
+<section>
+  <div class="section-inner" style="max-width:860px;">
+
+    <!-- Quick links -->
+    <div class="doc-grid">
+      <div class="doc-card">
+        <h3>✈️ Creating your first trip</h3>
+        <p>Set up a trip with destinations, dates, and bookings in under 5 minutes.</p>
+        <p style="margin-top:10px;"><a href="#create-trip">Read guide →</a></p>
+      </div>
+      <div class="doc-card">
+        <h3>✉️ Gmail import setup</h3>
+        <p>Connect your Gmail account and automatically import travel confirmations.</p>
+        <p style="margin-top:10px;"><a href="#gmail-import">Read guide →</a></p>
+      </div>
+      <div class="doc-card">
+        <h3>🗺️ Transit directions</h3>
+        <p>Generate AI-powered step-by-step transit routes for your entire itinerary.</p>
+        <p style="margin-top:10px;"><a href="#transit">Read guide →</a></p>
+      </div>
+      <div class="doc-card">
+        <h3>🛂 Entry requirements</h3>
+        <p>Read visa rules and entry checklists based on your passport nationality.</p>
+        <p style="margin-top:10px;"><a href="#entry-req">Read guide →</a></p>
+      </div>
+      <div class="doc-card">
+        <h3>📍 Using the app offline</h3>
+        <p>Everything you can access without internet access, and how caching works.</p>
+        <p style="margin-top:10px;"><a href="#offline">Read guide →</a></p>
+      </div>
+      <div class="doc-card">
+        <h3>🔧 Troubleshooting</h3>
+        <p>Common issues and how to fix them.</p>
+        <p style="margin-top:10px;"><a href="#troubleshooting">Read guide →</a></p>
+      </div>
+    </div>
+
+    <!-- Creating your first trip -->
+    <div class="doc-section" id="create-trip">
+      <h2>✈️ Creating your first trip</h2>
+      <div class="doc-step">
+        <div class="doc-step-num">1</div>
+        <div class="doc-step-body">
+          <h4>Open the Trip tab</h4>
+          <p>Tap the ✈️ Trip icon in the bottom navigation bar. If you have no trips, you'll see an empty state with a "+ New Trip" button.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">2</div>
+        <div class="doc-step-body">
+          <h4>Name your trip</h4>
+          <p>Enter a name like "Japan October 2026" or "Europe Summer". This is just for your reference.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">3</div>
+        <div class="doc-step-body">
+          <h4>Add destinations</h4>
+          <p>Type a country name (e.g. "Japan") and tap the + button. Add as many countries as your trip covers. Use country names, not cities — this ensures entry requirements display correctly.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">4</div>
+        <div class="doc-step-body">
+          <h4>Set your travel dates</h4>
+          <p>Choose your departure and return dates. These are used to scope Gmail import and the Schengen day counter.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">5</div>
+        <div class="doc-step-body">
+          <h4>Add bookings</h4>
+          <p>Tap "+ Add Booking" to add flights, hotels, and activities manually — or use Gmail import (Pro) to pull them in automatically. Flights are validated against airline data.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <p><strong>Tip:</strong> Enter destination names as countries ("France"), not cities ("Paris"). The entry requirements engine matches against country names. City names will show a "no data" result.</p>
+      </div>
+    </div>
+
+    <!-- Gmail import -->
+    <div class="doc-section" id="gmail-import">
+      <h2>✉️ Gmail import (Pro)</h2>
+      <div class="doc-step">
+        <div class="doc-step-num">1</div>
+        <div class="doc-step-body">
+          <h4>Open a trip and tap the Gmail button</h4>
+          <p>On any trip, tap the ✉️ Gmail button. If you're not a Pro subscriber, you'll be shown the subscription page first.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">2</div>
+        <div class="doc-step-body">
+          <h4>Review the privacy disclosure</h4>
+          <p>A screen explains exactly what access Roam Wyld requests and what it does with your email data. Read it and tap "Continue to Google Sign-In" when ready.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">3</div>
+        <div class="doc-step-body">
+          <h4>Authorize read-only access</h4>
+          <p>Sign in to your Google account and grant Roam Wyld read-only Gmail access. We request the minimum permissions needed to find travel confirmations.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">4</div>
+        <div class="doc-step-body">
+          <h4>Review found bookings</h4>
+          <p>Roam Wyld scans your inbox for travel confirmation emails within your trip's date range and presents the results. All bookings are pre-selected — uncheck any you don't want to add.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">5</div>
+        <div class="doc-step-body">
+          <h4>Tap "Import"</h4>
+          <p>Selected bookings are added to your trip instantly.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <p><strong>Not finding your confirmations?</strong> Make sure the confirmation emails are in your main inbox (not a subfolder or spam). Gmail import searches within your trip's start and return dates. If emails are outside that window, extend your trip dates temporarily.</p>
+      </div>
+    </div>
+
+    <!-- Transit directions -->
+    <div class="doc-section" id="transit">
+      <h2>🗺️ AI Transit Directions (Pro)</h2>
+      <div class="doc-step">
+        <div class="doc-step-num">1</div>
+        <div class="doc-step-body">
+          <h4>Open a trip with destinations</h4>
+          <p>Transit directions require at least one destination. Open a trip and scroll to the directions section.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">2</div>
+        <div class="doc-step-body">
+          <h4>Tap "Get Transit Directions"</h4>
+          <p>Roam Wyld sends your trip itinerary to an AI and generates step-by-step transit instructions — trains, buses, metro lines, ferries — with duration estimates and local tips. This takes up to 30 seconds.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">3</div>
+        <div class="doc-step-body">
+          <h4>Review your route</h4>
+          <p>Directions are displayed as cards, one per transit segment. Each card shows the mode of transport, route, duration, and step-by-step instructions. Costs and local tips are included where available.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">4</div>
+        <div class="doc-step-body">
+          <h4>Directions are cached offline</h4>
+          <p>Once generated, directions are saved to your device. They're available in airplane mode. Tap "Regenerate" to refresh — note there's a 3-minute cooldown between regenerations.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <p><strong>Note:</strong> AI transit directions are a planning guide, not a real-time navigation tool. Always verify departure times and platforms with official sources (Google Maps, local transit apps) before traveling.</p>
+      </div>
+    </div>
+
+    <!-- Entry requirements -->
+    <div class="doc-section" id="entry-req">
+      <h2>🛂 Entry Requirements</h2>
+      <div class="doc-step">
+        <div class="doc-step-num">1</div>
+        <div class="doc-step-body">
+          <h4>Set your passport nationality in Profile</h4>
+          <p>Go to Profile → Edit → tap your passport nationality (US, UK, AU, CA, or EU). This setting applies to all your trips.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">2</div>
+        <div class="doc-step-body">
+          <h4>Open a trip with destinations</h4>
+          <p>Entry requirements are shown for trips with at least one destination. Make sure your destinations are entered as country names.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">3</div>
+        <div class="doc-step-body">
+          <h4>Tap "Entry Requirements" to expand</h4>
+          <p>Scroll down on your trip and tap the Entry Requirements section header. This is free for all users.</p>
+        </div>
+      </div>
+      <div class="doc-step">
+        <div class="doc-step-num">4</div>
+        <div class="doc-step-body">
+          <h4>Switch passport nationality</h4>
+          <p>Tap any of the passport pills (US, UK, AU, CA, EU) to see requirements from that passport's perspective. Useful if you're traveling with a partner on a different passport.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <p><strong>Important:</strong> Always verify visa requirements with the official government source for your destination country before travel. Entry rules can change without notice.</p>
+      </div>
+    </div>
+
+    <!-- Offline -->
+    <div class="doc-section" id="offline">
+      <h2>📍 Using Roam Wyld Offline</h2>
+      <p style="font-size:15px;color:var(--text-muted);margin-bottom:24px;">Roam Wyld is designed to work without internet. Here's what's available offline:</p>
+      <ul style="list-style:none;margin-bottom:24px;">
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">✅ All your trips and bookings</li>
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">✅ Entry requirements and visa info (pre-loaded data)</li>
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">✅ Currency exchange rates (cached from last session)</li>
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">✅ Emergency numbers for all countries</li>
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">✅ Transit directions (if generated previously)</li>
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">✅ Language phrases</li>
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">❌ Generating new transit directions (requires internet)</li>
+        <li style="padding:10px 0;border-bottom:1px solid var(--border);font-size:15px;">❌ Gmail import (requires internet)</li>
+        <li style="padding:10px 0;font-size:15px;">❌ Creating new bookings (requires internet to sync)</li>
+      </ul>
+      <div class="callout">
+        <p><strong>Tip:</strong> Generate your transit directions and load your trip data before you board your flight. Everything will be cached and ready when you land.</p>
+      </div>
+    </div>
+
+    <!-- Troubleshooting -->
+    <div class="doc-section" id="troubleshooting">
+      <h2>🔧 Troubleshooting</h2>
+
+      <div style="margin-bottom:24px;">
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">App shows "Offline" even though I have internet</h3>
+        <p style="font-size:14px;color:var(--text-muted);">Try closing and reopening the app. If the issue persists, toggle airplane mode on and off on your iPhone. The offline banner should disappear within a few seconds of reconnecting.</p>
+      </div>
+      <div style="margin-bottom:24px;border-top:1px solid var(--border);padding-top:24px;">
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">Gmail import isn't finding my booking emails</h3>
+        <p style="font-size:14px;color:var(--text-muted);">Check that: (1) the confirmation emails are in your main inbox, not a label or folder; (2) your trip dates match the dates of the bookings; (3) you're connected to the same Gmail account that received the confirmations. Try forwarding a missed confirmation to your inbox and scanning again.</p>
+      </div>
+      <div style="margin-bottom:24px;border-top:1px solid var(--border);padding-top:24px;">
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">Entry requirements show "No data" for my destination</h3>
+        <p style="font-size:14px;color:var(--text-muted);">Destinations must be entered as country names, not city names. For example: "France" works, "Paris" does not. Edit your trip's destination tag to use the country name.</p>
+      </div>
+      <div style="margin-bottom:24px;border-top:1px solid var(--border);padding-top:24px;">
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">Flight shows as invalid but my booking is correct</h3>
+        <p style="font-size:14px;color:var(--text-muted);">Some charter, regional, and codeshare flights may not appear in our validation database. You can save a booking without a flight number — it will save without validation. The booking is still fully functional in your trip.</p>
+      </div>
+      <div style="margin-bottom:24px;border-top:1px solid var(--border);padding-top:24px;">
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">Transit directions taking too long or timing out</h3>
+        <p style="font-size:14px;color:var(--text-muted);">AI directions can take up to 30 seconds on a first generation. If it times out, check your connection and try again. There's a 3-minute cooldown between regenerations to prevent excessive API usage.</p>
+      </div>
+      <div style="margin-bottom:24px;border-top:1px solid var(--border);padding-top:24px;">
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px;">Subscription not recognized after purchase</h3>
+        <p style="font-size:14px;color:var(--text-muted);">Tap any Pro feature → on the paywall screen tap "Restore Purchases". Make sure you're using the same Apple ID used to subscribe. If that doesn't work, close the app completely, reopen, and try restoring again.</p>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-box">
+      <h3>Still need help?</h3>
+      <p>We respond to all support emails within 24 hours, usually sooner.</p>
+      <a href="mailto:support@roamwyld.app" class="contact-email">Email support@roamwyld.app</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">ROAM WYLD</div>
+        <p>Multi-country trip planning for curious travelers.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+          <li><a href="/#download">Download</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="support.html">Help & Docs</a></li>
+          <li><a href="mailto:support@roamwyld.app">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Roam Wyld. All rights reserved.</span>
+      <span><a href="mailto:support@roamwyld.app">support@roamwyld.app</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
